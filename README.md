@@ -1,5 +1,4 @@
 # Seattle_Airbnb_Tableau_Project
-# Seattle Airbnb Market & Pricing Analysis
 
 ## Project Overview
 A Tableau dashboard analyzing Seattle Airbnb listings to evaluate seasonal pricing trends and location-based pricing benchmarks across zipcodes.
