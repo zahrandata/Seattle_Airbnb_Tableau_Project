@@ -9,12 +9,20 @@ A Tableau dashboard analyzing Seattle Airbnb listings to evaluate seasonal prici
 * **Seasonal Rate Trends:** Line chart tracking average price fluctuations across 2016 calendar weeks to map seasonal demand patterns.
 * **Average Price Per Bedroom:** Vertical bar chart showing exact average pricing across property sizes (1 to 6 bedrooms).
 * **Total Listings By Bedroom:** Data table breaking down total market listing volume by bedroom count.
-
-### Dashboard 2: Zipcode Location & Price Benchmarks
-* **Location Map (Nightly Rates):** Geographic map showing neighborhood nightly rates per zip code.
 * **Average Monthly Prices by Zipcode:** Horizontal bar chart ranking zip codes by average monthly listing rates.
 
 ## Key Findings
+
+* **Market Overview & Key Performance Indicators (KPIs):**
+  * **Highest Rate Zipcode:** 98101 at **$4,294 / month**
+  * **Lowest Rate Zipcode:** 98146 at **$950 / month**
+  * **Seasonal Peak:** Nightly rates are **~24% higher in July** than in January (lowest point)
+   **~6x more per night** than a 1-bedroom listing
+
+* **Average Monthly Price by Zipcode:**
+  * Zipcode 98101 (Highest): $4,294
+  * Zipcode 98146 (Lowest): $950
+
 
 * **Market Supply Breakdown:**
   * 1 Bedroom: 1,811 listings
@@ -31,11 +39,3 @@ A Tableau dashboard analyzing Seattle Airbnb listings to evaluate seasonal prici
   * 4 Bedrooms: 315.4
   * 5 Bedrooms: 450.0
   * 6 Bedrooms: 584.8
-
-* **Geographic Rates:**
-  * Highest average monthly rate: Zip code 98101 at 4,294
-  * Lowest average monthly rate: Zip code 98146 at 950
-
-## Repository Files
-* `Seattle_Airbnb_Analysis.twbx` — Interactive Tableau packaged workbook
-* `images/` — Visual exports of the story tabs
